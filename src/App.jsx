@@ -8,7 +8,9 @@ import {   ContextProvider } from "./context/contextData";
 
 function App() {
  return (
+
     <ContextProvider>
+        <h1>Hello, World!</h1>
       <Routes>
         <Route path="*" element={<h1>Not Found</h1>} />
 
